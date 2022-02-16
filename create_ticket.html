@@ -578,23 +578,24 @@
                 $("#id_upbjj").select2();
             });
 
-            Dropzone.autoDiscover = false;
-            $(function () {
-                // Now that the DOM is fully loaded, create the dropzone & configuration options
-                var myDropzone = new Dropzone("#my-dropzone", {
-                    maxFilesize: 3.0,
-                    maxFiles: 10,
-                    parallelUploads: 1,
-                    uploadMultiple: true,
-                    autoProcessQueue: true,
-                });
+            // Undefined Dropzone
+            // Dropzone.autoDiscover = false;
+            // $(function () {
+            //     // Now that the DOM is fully loaded, create the dropzone & configuration options
+            //     var myDropzone = new Dropzone("#my-dropzone", {
+            //         maxFilesize: 3.0,
+            //         maxFiles: 10,
+            //         parallelUploads: 1,
+            //         uploadMultiple: true,
+            //         autoProcessQueue: true,
+            //     });
 
-                //  and setup the on success event listeners
-                myDropzone.on("success", function (file) {
-                    var value = $("#Files").val();
-                    $("#Files").val(value + ";" + responsetext.Url);
-                });
-            });
+            //     //  and setup the on success event listeners
+            //     myDropzone.on("success", function (file) {
+            //         var value = $("#Files").val();
+            //         $("#Files").val(value + ";" + responsetext.Url);
+            //     });
+            // });
         </script>
         <script type="text/javascript">
             document.getElementById("search").addEventListener("keyup", function (event) {
