@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9 no-js" lang="en"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+        <title>Layanan Informasi dan Bantuan - UNIVERSITAS TERBUKA</title>
+        <!-- start: META -->
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <!-- end: META -->
+        <!-- start: MAIN CSS -->
+        <link href="https://hallo-ut.ut.ac.id/assets/frontend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/plugins/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/fonts/style.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/plugins/animate.css/animate.min.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/css/main.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/css/main-responsive.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/css/theme_blue.css" type="text/css" id="skin_color">
+        <!-- end: MAIN CSS -->
+        <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/plugins/revolution_slider/rs-plugin/css/settings.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/plugins/flex-slider/flexslider.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/plugins/colorbox/example2/colorbox.css">
+        <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+        <!-- start: HTML5SHIV FOR IE8 -->
+        <!--[if lt IE 9]>
+        <script src="assets/plugins/html5shiv.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/chatbot/css/style.css">
+        <link rel="stylesheet" href="https://hallo-ut.ut.ac.id/assets/frontend/chatbot/css/pure-min.css">
+        <!-- end: HTML5SHIV FOR IE8 -->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108445532-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108445532-1');
+        </script>
+        
+</head>
+<!-- end: HEAD -->
+<body>
+    
+    <!-- start: HEADER -->
+    <header>
+        <!-- end: SLIDING BAR -->
+        <!-- start: TOP BAR -->
+        <div class="clearfix " id="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <!-- start: TOP BAR CALL US -->
+                        <div class="callus">
+                            Phone: (021) 1500024 | 
+                            <a href="mailto:hallo-ut@ut.ac.id">
+                                Email: hallo-ut@ut.ac.id
+                            </a>
+                            | Sms: 081 1905 0024 
+                            | <a href="https://hallo-ut.ut.ac.id/attachment/44-BUKU_PANDUAN_APLIKASI_Web.pdf" download>
+                                Petunjuk Penggunaan
+                            </a>
+                        </div>
+                        <!-- end: TOP BAR CALL US -->
+                    </div>
+                    <div class="col-sm-6">
+                        <!-- start: TOP BAR SOCIAL ICONS -->
+                        <div class="social-icons">
+                            <ul>
+                                <li class="social-twitter tooltips" data-original-title="Twitter" data-placement="bottom">
+                                    <a target="_blank" href="https://twitter.com/UnivTerbuka">
+                                        Twitter
+                                    </a>
+                                </li>
+                                <li class="social-facebook tooltips" data-original-title="Facebook" data-placement="bottom">
+                                    <a target="_blank" href="https://www.facebook.com/UnivTerbuka">
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="social-google tooltips" data-original-title="Google" data-placement="bottom">
+                                        <a target="_blank" href="http://plus.google.com/+univterbuka">
+                                            Google+
+                                        </a>
+                                    </li>
+                                    <li class="social-linkedin tooltips" data-original-title="LinkedIn" data-placement="bottom">
+                                        <a target="_blank" href="http://www.linkedin.com/edu/school?id=13307">
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                <li class="social-youtube tooltips" data-original-title="YouTube" data-placement="bottom">
+                                    <a target="_blank" href="https://www.youtube.com/univterbuka/">
+                                        YouTube
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end: TOP BAR SOCIAL ICONS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: TOP BAR -->
+        <div role="navigation" class="navbar navbar-default navbar-fixed-top space-top" style="height: 80px;">
+            <!-- start: TOP NAVIGATION CONTAINER -->
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- start: RESPONSIVE MENU TOGGLER -->
+                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- end: RESPONSIVE MENU TOGGLER -->
+                    <!-- start: LOGO -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="https://hallo-ut.ut.ac.id/assets/images/logo.png">
+                    </a>
+                    <!-- end: LOGO -->
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="https://hallo-ut.ut.ac.id/">
+                                Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a class="dropdown-toggle" href="https://hallo-ut.ut.ac.id/create/ticket">
+                                Tiket Baru 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown-toggle" href="http://aksi.ut.ac.id/sk" target="_blank">
+                                Surat Keterangan
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown-toggle" href="https://aksi.ut.ac.id/legalisir" target="_blank">
+                                Legalisir ijazah
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown-toggle" href="https://sisupel.ut.ac.id/mulai-survey" target="_blank">
+                                Survei Kepuasan
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown-toggle" href="https://hallo-ut.ut.ac.id/cek/ticket">
+                                Status Tiket
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown-toggle" href="https://hallo-ut.ut.ac.id/informasi">
+                                FAQ
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://hallo-ut.ut.ac.id/login">
+                                Masuk
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- end: TOP NAVIGATION CONTAINER -->
+        </div>
+    </header>
+    <!-- end: HEADER -->
+    <!-- start: MAIN CONTAINER -->
+    <div class="main-container">
+                
+<section class="page-top">
+	<div class="container">
+		<div class="col-md-4 col-sm-4">
+			<h1>Buat Tiket Pengaduan Baru </h1>
+		</div>
+		<div class="col-md-8 col-sm-8">
+			<ul class="pull-right breadcrumb">
+				<li>
+					<a href="https://hallo-ut.ut.ac.id/">
+						Home
+					</a>
+				</li>
+				<li class="active">
+					Ticket Baru
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section class="wrapper padding50">
+	<div class="container">
+		<div class="row">
+			<form role="form" method="post" action="https://hallo-ut.ut.ac.id/ticket/post" novalidate="novalidate" enctype="multipart/form-data">
+				<div class="col-md-4">
+					<h2>Buat Ticket Baru</h2>
+										<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>
+									Nama Lengkap <span class="symbol required"></span>
+								</label>
+								<input type="text" id="fullname" name="fullname"  class="form-control" required value="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>
+									Email <span class="symbol required"></span>
+								</label>
+								<input type="email" id="email" name="email" class="form-control" required maxlength="100" data-msg-email="Please enter a valid email address." data-msg-required="Please enter your email address."  value="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>
+									NIM <span class="symbol required"><span class="symbol required"></span>Jika mahasiswa</span>
+								</label>
+								<input type="text" id="nim" name="nim" class="form-control"  value="">
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>
+									UPBJJ <span class="symbol required"><span class="symbol required"></span>Jika mahasiswa</span>
+								</label>
+								<select name="id_upbjj" id="id_upbjj" style="width:100%">
+<option value="98">PUSAT</option>
+<option value="10">SORONG</option>
+<option value="11">BANDA ACEH</option>
+<option value="12">MEDAN</option>
+<option value="13">BATAM</option>
+<option value="14">PADANG</option>
+<option value="15">PANGKAL PINANG</option>
+<option value="16">PEKANBARU</option>
+<option value="17">JAMBI</option>
+<option value="18">PALEMBANG</option>
+<option value="19">BENGKULU</option>
+<option value="20">BANDAR LAMPUNG</option>
+<option value="21">JAKARTA</option>
+<option value="22">SERANG</option>
+<option value="23">BOGOR</option>
+<option value="24">BANDUNG</option>
+<option value="41">PURWOKERTO</option>
+<option value="42">SEMARANG</option>
+<option value="44">SURAKARTA</option>
+<option value="45">YOGYAKARTA</option>
+<option value="47">PONTIANAK</option>
+<option value="48">PALANGKARAYA</option>
+<option value="49">BANJARMASIN</option>
+<option value="50">SAMARINDA</option>
+<option value="51">TARAKAN</option>
+<option value="71">SURABAYA</option>
+<option value="74">MALANG</option>
+<option value="76">JEMBER</option>
+<option value="77">DENPASAR</option>
+<option value="78">MATARAM</option>
+<option value="79">KUPANG</option>
+<option value="80">MAKASSAR</option>
+<option value="81">MAJENE</option>
+<option value="82">PALU</option>
+<option value="83">KENDARI</option>
+<option value="84">MANADO</option>
+<option value="85">GORONTALO</option>
+<option value="86">AMBON</option>
+<option value="87">JAYAPURA</option>
+<option value="89">TERNATE</option>
+</select>
+									<label class="error" for="fruits"></label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>
+									No HP <span class="symbol required"></span>
+								</label>
+								<input type="number" name="nohp" class="form-control"  value="">
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="col-md-8">
+						<p><span class="symbol required"></span> Wajib Di Isi</p>
+						<p><span class="symbol required"></span><span class="symbol required"></span> Optional</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<h2><br></h2>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+									<label>
+										Topik<span class="symbol required"></span>
+									</label>
+									<select name="topik_id" id="topik_id" style="width:100%">
+<option value="" selected="selected">Choose one</option>
+<option value="1">Info UT</option>
+<option value="8">Ijazah</option>
+<option value="9">Beasiswa</option>
+<option value="10">Bahan Ajar</option>
+<option value="11">Alih Kredit Mata Kuliah</option>
+<option value="13">Kelulusan/Yudisium</option>
+<option value="14">Nilai</option>
+<option value="15">Ujian</option>
+<option value="17">Beda Tanda Tangan</option>
+<option value="19">Email e-campus</option>
+<option value="21">Forlap Dikti</option>
+<option value="23">KTME</option>
+<option value="25">Karil</option>
+<option value="28">LKAM</option>
+<option value="30">Latihan Mandiri</option>
+<option value="33">Nilai ada tp tdk terbit di LKAM</option>
+<option value="35">PMKM</option>
+<option value="37">Pembayaran SPP</option>
+<option value="39">Pembebasan Matakuliah</option>
+<option value="41">Penawaran Kerjasama</option>
+<option value="43">Pengembalian SPP</option>
+<option value="45">Pengguguran Matakuliah</option>
+<option value="47">Penundaan Yudisium</option>
+<option value="49">Persetujuan Alih Kredit</option>
+<option value="51">Perubahan Data Pribadi</option>
+<option value="53">Pindah Program Studi</option>
+<option value="55">Pindah UPBJJ</option>
+<option value="57">Praktek/Praktikum</option>
+<option value="59">Program Sertifikat</option>
+<option value="61">Registrasi</option>
+<option value="63">Ruang Baca Virtual</option>
+<option value="65">Suket Alumni</option>
+<option value="67">Suket Kelulusan</option>
+<option value="69">Suket Mahasiswa Aktif</option>
+<option value="71">Suket Penonaktifan (Pindah)</option>
+<option value="73">Tidak puas nilai UAS</option>
+<option value="75">Tutorial/Tugas</option>
+<option value="78">Wisuda/UPI</option>
+<option value="87">Office 365</option>
+<option value="91">TAP (Tugas Akhir Program)</option>
+<option value="92">Fakultas dan Program Studi</option>
+<option value="93">Mahasiswa UT</option>
+<option value="95">Tugas Matakuliah (Remediasi)</option>
+<option value="97">UAS (Ujian Akhir Semester)</option>
+<option value="99">Uang kuliah/SPP</option>
+<option value="100">Surat Keterangan</option>
+</select>
+									<label class="error" for="fruits"></label>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+									<label class="control-label">
+										Priority <span class="symbol required"></span>
+									</label>
+									<select name="priority_id"  class="form-control"id="priority_id" class="form-control">
+<option value="" selected="selected">Choose one</option>
+<option value="1">Low</option>
+<option value="2">Medium</option>
+<option value="3">High</option>
+</select>
+																</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>
+									Subject <span class="symbol required"></span>
+								</label>
+								<input type="text" name="subject" class="form-control" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12">
+								<label class="control-label">
+									Description<span class="symbol required"></span>
+								</label>
+						        <textarea id="Description" name="Description" placeholder="Enter text here..." class="form-control" rows="10"></textarea>
+															</div>
+						</div>
+					</div>
+					<hr>
+					<strong id="attach">Attachment</strong>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="fileupload fileupload-new" data-provides="fileupload">
+								<div class="fileupload-new">
+									<center>
+										<img src="https://hallo-ut.ut.ac.id/assets/images/no-image.jpg" alt="" class="img-responsive thumbnail"/> 
+									</center>
+								</div>
+								<center>
+									<div class="fileupload-preview fileupload-exists thumbnail img-responsive" style="height:150px"></div>
+								</center>
+								<div>
+								<center>
+									<span class="btn btn-success btn-file btn-xs">
+										<span class="fileupload-new"><i class="icon-picture icon-white"></i> Choose image</span><span class="fileupload-exists">
+										<i class="icon-picture icon-white"></i> Change</span>
+										<input type="file" name="userfile[]">
+									</span>
+									<a href="javascript:void(0);" class="btn fileupload-exists btn-warning btn-xs" data-dismiss="fileupload">
+										<i class="icon-remove icon-white"></i> Delete
+									</a>
+								</center>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<div class="fileupload fileupload-new" data-provides="fileupload">
+								<div class="fileupload-new">
+									<center>
+										<img src="https://hallo-ut.ut.ac.id/assets/images/no-image.jpg" alt="" class="img-responsive thumbnail"/> 
+									</center>
+								</div>
+								<center>
+									<div class="fileupload-preview fileupload-exists thumbnail" style="height:150px"></div>
+								</center>
+								<div>
+								<center>
+									<span class="btn btn-success btn-file btn-xs">
+										<span class="fileupload-new"><i class="icon-picture icon-white"></i> Choose image</span><span class="fileupload-exists">
+										<i class="icon-picture icon-white"></i> Change</span>
+										<input type="file" name="userfile[]">
+									</span>
+									<a href="javascript:void(0);" class="btn fileupload-exists btn-warning btn-xs" data-dismiss="fileupload">
+										<i class="icon-remove icon-white"></i> Delete
+									</a>
+								</center>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+						<div class="fileupload fileupload-new" data-provides="fileupload">
+								<div class="fileupload-new">
+									<center>
+										<img src="https://hallo-ut.ut.ac.id/assets/images/no-image.jpg" alt="" class="img-responsive thumbnail"/> 
+									</center>
+								</div>
+								<center>
+									<div class="fileupload-preview fileupload-exists thumbnail" style="height:150px"></div>
+								</center>
+								<div>
+								<center>
+									<span class="btn btn-success btn-file btn-xs">
+										<span class="fileupload-new"><i class="icon-picture icon-white"></i> Choose image</span><span class="fileupload-exists">
+										<i class="icon-picture icon-white"></i> Change</span>
+										<input type="file" name="userfile[]">
+									</span>
+									<a href="javascript:void(0);" class="btn fileupload-exists btn-warning btn-xs" data-dismiss="fileupload">
+										<i class="icon-remove icon-white"></i> Delete
+									</a>
+								</center>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<div class="col-md-9">
+							<div class="g-recaptcha" data-sitekey="6Lcvvx4UAAAAAG1ymdSy2cTLF4Qsfie-A00hfONw"></div>
+							  							<p><span class="symbol required"></span> Wajib Di Isi</p>
+							<p>Data Anda dijamin kerahasiaannya</p>
+						</div>
+						<div class="col-md-3">
+							<input type="submit" style="margin-left: 100px;" data-loading-text="Loading..." class="btn btn-main-color" value="Kirim">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<script>
+    jQuery(document).ready(function() {
+        Login.init();
+    });
+    $("#alert").fadeTo(2000, 500).slideUp(500, function(){
+        $("alert").slideUp(500);
+    });
+</script>    </div>
+    <!-- end: MAIN CONTAINER -->
+    <!-- start: FOOTER -->
+    <!-- CHATBOT -->
+    <input type="checkbox" id="check"> <label class="chat-btn" id="chat-btn-ut" onclick="clickChatbotUTBtn();" for="check"> <i class="fa fa-commenting-o comment"></i><span id="chatbothgtext">&nbsp;Tanya Kami Yuk!</span> <i class="fa fa-close close"></i> </label>
+    <div class="wrapper-chat">
+          <div class="chat-input" id="webchat">      
+          </div>
+            <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+            <script>
+               // "styleSet" is a set of CSS rules which are generated from "styleOptions"
+               let styleSet = window.WebChat.createStyleSet({
+                  bubbleBackground: 'rgba(0, 0, 255, .1)',
+                  bubbleFromUserBackground: 'rgba(0, 255, 0, .1)'
+               });
+
+               // After generated, you can modify the CSS rules
+               styleSet.textContent = {
+                  ...styleSet.textContent,
+                  fontFamily: "'Calibri', 'Helvetica Neue', Arial, sans-serif",
+           margin: 8,
+                  //fontWeight: 'bold'
+               };
+
+               window.WebChat.renderWebChat(
+                  {
+                     directLine: window.WebChat.createDirectLine({
+                        secret: 'Bt4GygDWhK8.R36LqB_0Pwx3YHfyKx5E6Y7tbJXRcfvZy2y_HT0nud4'
+                     }),
+
+                     // Passing 'styleSet' when rendering Web Chat
+                     styleSet
+                  },
+                  document.getElementById('webchat')
+               );
+            </script>
+    </div>
+    <!-- END CHATBOT -->
+    <footer id="footer">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-5">
+                            <a class="logo" href="http://www.ut.ac.id/">
+                               <img class="tengah" style="max-width: 200px;top: 0" src="https://hallo-ut.ut.ac.id/assets/images/logo.png">
+                            </a>
+                            <br>
+                            <p>
+                                &copy; Copyright 2017. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <a id="scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+    <!-- end: FOOTER -->
+    <!-- start: MAIN JAVASCRIPTS -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script type="text/javascript" src="assets/plugins/jQuery-lib/1.10.2/jquery.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/jQuery-lib/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/jquery.transit/jquery.transit.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/jquery.appear/jquery.appear.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/blockUI/jquery.blockUI.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/jquery-cookie/jquery.cookie.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/js/main.js"></script>
+    <!-- end: MAIN JAVASCRIPTS -->
+    <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/flex-slider/jquery.flexslider.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/stellar.js/jquery.stellar.min.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/js/index.js"></script>           
+    <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <script>
+        jQuery(document).ready(function() {
+            Main.init();
+            Index.init();
+            $.stellar();
+        });
+    </script>
+    <link href="https://hallo-ut.ut.ac.id/assets/css/bootstrap-wysihtml5.css" rel="stylesheet" />
+
+<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet"></link>
+<link rel="stylesheet" type="text/css" href="https://hallo-ut.ut.ac.id/assets/plugins/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="https://hallo-ut.ut.ac.id/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css" />
+
+<script src="https://hallo-ut.ut.ac.id/assets/js/wysihtml5-0.3.0.min.js"></script>
+<script src="https://hallo-ut.ut.ac.id/assets/js/bootstrap-wysihtml5.js"></script>
+<script src="https://hallo-ut.ut.ac.id/assets/js/ckeditor/ckeditor.js"></script>
+<script src="https://hallo-ut.ut.ac.id/assets/js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="https://hallo-ut.ut.ac.id/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+<script src="https://hallo-ut.ut.ac.id/assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+<script type="text/javascript" src="https://hallo-ut.ut.ac.id/assets/plugins/select2/select2.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){        
+        $('#Description').wysihtml5({color: true,html:true});
+        $('#kota').select2();
+        $('#topik_id').select2();
+        $('#id_upbjj').select2();
+    });
+    
+    Dropzone.autoDiscover = false;
+    $(function() {
+        // Now that the DOM is fully loaded, create the dropzone & configuration options
+        var myDropzone = new Dropzone('#my-dropzone', {
+            maxFilesize: 3.0,
+            maxFiles: 10,
+            parallelUploads: 1,
+            uploadMultiple: true,
+            autoProcessQueue: true
+        });
+        
+        //  and setup the on success event listeners
+        myDropzone.on("success", function (file) {
+            var value = $("#Files").val();
+            $("#Files").val(value + ';' + responsetext.Url);
+        });
+
+    });
+</script>    <script type="text/javascript">
+        document.getElementById("search")
+            .addEventListener("keyup", function(event) {
+            event.preventDefault();
+            var url = "https://hallo-ut.ut.ac.id/";
+            var search = document.getElementsByName("search")[0].value;
+            if (event.keyCode == 13) {
+                window.location.href = url +'status?noticket='+search;
+            }
+        });
+    </script>
+    <script src="https://hallo-ut.ut.ac.id/assets/frontend/chatbot/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script>
+        // "styleSet" is a set of CSS rules which are generated from "styleOptions"
+        const styleSet = window.WebChat.createStyleSet({
+            bubbleBackground: 'rgba(0, 0, 255, .1)',
+            bubbleFromUserBackground: 'rgba(0, 255, 0, .1)'
+        });
+
+        // After generated, you can modify the CSS rules
+        styleSet.textContent = {
+            ...styleSet.textContent,
+            fontFamily: "'Calibri', 'Helvetica Neue', Arial, sans-serif",
+    margin: 8,
+            //fontWeight: 'bold'
+        };
+
+        var isAlreadyTriggerFirstRequestBot = 0;
+
+        function renderchatbot(){
+            window.WebChat.renderWebChat(
+                {
+                directLine: window.WebChat.createDirectLine({
+                    secret: 'Bt4GygDWhK8.R36LqB_0Pwx3YHfyKx5E6Y7tbJXRcfvZy2y_HT0nud4'
+                }),
+
+                // Passing 'styleSet' when rendering Web Chat
+                styleSet
+                },
+                document.getElementById('webchat')
+            );
+        }
+
+        function clickChatbotUTBtn(){
+        if(isAlreadyTriggerFirstRequestBot == 0 ){
+            isAlreadyTriggerFirstRequestBot = 1;
+            renderchatbot();
+        }
+        };
+    </script>
+</body>
+
+</html>
